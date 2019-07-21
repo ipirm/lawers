@@ -493,7 +493,7 @@ body {
   font-family: SedanSC !important; }
 
 .main-page {
-  background-image: url("../images/main-bg.png");
+  background-image: url("../../images/main-bg.png");
   -webkit-background-size: cover;
   background-size: cover;
   height: 100vh; }
@@ -569,14 +569,14 @@ body {
   color: #fff; }
 
 .list-page {
-  background-image: url("../images/list-bg.png");
+  background-image: url("../../images/list-bg.png");
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 100vh;
   background-repeat: no-repeat; }
 
 .table-page {
-  background-image: url("../images/table-bg.png");
+  background-image: url("../../images/table-bg.png");
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 100vh;
@@ -725,7 +725,7 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 2.5rem;
   background-position: 1% 50%;
-  background-image: url("../images/Vector.svg"); }
+  background-image: url("../../images/Vector.svg"); }
 
 .container-list__table {
   margin: auto;
