@@ -34,7 +34,7 @@ gulp.task('purgecss', () => {
         .pipe(purgecss({
             content: ['./*.html']
         }))
-        .pipe(gulp.dest('./css/build.css'))
+        .pipe(gulp.dest('./css/build'))
 });
 gulp.task('watch', function () {
     gulp.watch('./scss/**/*.scss', ['sass', 'livereload', 'purgecss']);
