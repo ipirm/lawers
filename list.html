@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<section class="list-page">
+    <div class="container-list">
+        <ul class="container-list__nav">
+            <li><a href="#">YENI ANKET</a></li>
+            <li><a href="#">SIYAHI</a></li>
+            <li><a href="#">STATISTIKA</a></li>
+            <li><a href="#">Parametrlər</a></li>
+            <li><a href="/main-page">
+                <span class="mr-3">Çıxış</span>
+                <img src="images/exit-svgrepo-com.svg"> </a></li>
+        </ul>
+        <div class="container-list__tech flex">
+            <div class="container-list__table flex flex-wrap">
+                <table style="width:75%" class="mr-10">
+
+                    <tr>
+                        <td>Kateqoriya</td>
+                        <td> Ünvan</td>
+                        <td>Telefon</td>
+                        <td class="table-number">Alt Kateqoriya sayı</td>
+
+                    </tr>
+                    <tr>
+                        <td>Aparat</td>
+                        <td></td>
+                        <td></td>
+                        <td class="table-number">8</td>
+                    </tr>
+                    <tr>
+                        <td>Vəkil Büroları</td>
+                        <td>Baku</td>
+                        <td>506</td>
+                        <td class="table-number">8</td>
+                    </tr>
+                    <tr>
+                        <td>Fərdi Vəkillər</td>
+                        <td></td>
+                        <td></td>
+                        <td class="table-number">8</td>
+                    </tr>
+                    <tr>
+                        <td>Vəkil Köməkçisi</td>
+                        <td></td>
+                        <td></td>
+                        <td class="table-number">8</td>
+                    </tr>
+                </table>
+                <ul class="container-list__buttons pt-8">
+                    <li><a href="#">Dəyiş</a></li>
+                    <li><a class="container-list__delete" href="#">Sil</a></li>
+                    <li><a href="#">Dəyiş</a></li>
+                    <li><a class="container-list__delete" href="#">Sil</a></li>
+                    <li><a href="#">Dəyiş</a></li>
+                    <li><a class="container-list__delete" href="#">Sil</a></li>
+
+
+                </ul>
+                <div class="overlay-button__add">
+                    <a href="#">Əlavə et</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<script src=""></script>
+</body>
+</html>
